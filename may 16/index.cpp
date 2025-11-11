@@ -17,7 +17,7 @@ int main(){
     return 0;
     
 
-   int c;
+    int c;
     cout<<"enter a number :";
     cin>>c;
 
@@ -34,7 +34,7 @@ int main(){
     */
 
     char val;
-    cout<<"enter a val :"<<endl;
+    cout<<"enter a val :";
     cin>>val;
     val= tolower(val);
 

@@ -7,7 +7,7 @@ int main(){
     cout<<"Enter amount you want to withdraw : ";
     cin>>amount;
     
-    if (amount>=0 && amount<=1000){
+    if (amount>=0 && amount<=10000){
         cout<<"Remaining Balance :"<<balance-amount<<endl;
     }
     else {
